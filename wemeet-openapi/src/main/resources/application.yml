@@ -1,0 +1,21 @@
+# Spring 应用配置
+spring:
+  application:
+    name: wemeet-openapi-service  # 应用名称
+
+# 服务器配置
+server:
+  port: 8080  # 服务端口
+
+# 腾讯会议 SDK 配置
+wemeet:
+  appId: ""  # 企业 ID，可在腾讯会议官网的企业管理 > 高级 > REST API 中查看
+  sdkId: ""  # 应用 ID，可在腾讯会议官网的企业管理 > 高级 > REST API 中查看
+  secretId: ""  # Secret ID，用于 JWT 鉴权
+  secretKey: ""  # Secret Key，用于 JWT 鉴权
+
+# 飞书 API 配置
+feishu:
+  appId: ""  # 飞书应用 ID，在飞书开发者平台创建应用后获取
+  appSecret: ""  # 飞书应用密钥，在飞书开发者平台创建应用后获取
+  baseUrl: "https://open.feishu.cn"  # 飞书 API 基础 URL

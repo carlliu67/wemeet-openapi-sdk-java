@@ -1,0 +1,23 @@
+# Maven build output
+target/
+
+# IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Log files
+logs/
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Configuration files
+src/main/resources/application.yml
